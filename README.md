@@ -24,5 +24,8 @@ resolveRedirect('http://bit.ly/1TCI5N0')
 ## Credits
 This is heavily based on the now defunct [resolve-redirect](https://www.npmjs.com/package/resolve-redirect) by [@Cezary](https://github.com/cezary/).
 
+## Say hello!
+Come say hello @ [devsbedevin.net](https://www.devsbedevin.net/)
+
 ## License
 MIT
