@@ -1,6 +1,8 @@
 # resolve-redirects-efficient
 A (node)JS module for efficiently resolving HTTP/HTTPS redirects.
 
+[![NPM version](https://img.shields.io/npm/v/resolve-redirects-efficient.svg?style=flat)](https://npmjs.org/package/resolve-redirects-efficient) [![NPM downloads](https://img.shields.io/npm/dm/resolve-redirects-efficient.svg?style=flat)](https://npmjs.org/package/resolve-redirects-efficient) [![GitHub issues](https://img.shields.io/github/issues/vaiden/resolve-redirects-efficient.svg)](https://github.com/vaiden/resolve-redirects-efficient/issues) [![Tests](https://img.shields.io/github/workflow/status/vaiden/resolve-redirects-efficient/Node.js%20CI/main?label=tests)](https://github.com/vaiden/resolve-redirects-efficient/actions/workflows/node.js.yml?query=branch%3Amain) [![PRs](https://img.shields.io/github/issues-pr/vaiden/resolve-redirects-efficient)](https://github.com/vaiden/resolve-redirects-efficient/pulls?q=is%3Apr+is%3Aopen) 
+
 ## What makes this _efficient_
 Unlike the competition, this module does not request the URL itself, but rather performs an *HTTP HEAD* request in order to receive the headers only.
 
