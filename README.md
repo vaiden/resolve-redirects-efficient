@@ -1,5 +1,5 @@
 # resolve-redirects-efficient
-A (node)JS module for efficiently resolving HTTP/HTTPS redirects
+A (node)JS module for efficiently resolving HTTP/HTTPS redirects.
 
 ## What makes this _efficient_
 Unlike the competition, this module does not request the URL itself, but rather performs an *HTTP HEAD* request in order to receive the headers only.
