@@ -1,3 +1,5 @@
+# Bumps version number after commit https://github.com/marketplace/actions/bump-versions
+
 name: 'Bump Version'
 
 on:
