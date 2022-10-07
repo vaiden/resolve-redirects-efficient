@@ -4,7 +4,7 @@ A (node)JS module for efficiently resolving HTTP/HTTPS redirects
 ## What makes this _efficient_
 Unlike the competition, this module does not request the URL itself, but rather performs an *HTTP HEAD* request in order to receive the headers only.
 
-Only in cases where the server misbehaves ([😮‍💨Amazon😮‍💨](https://stackoverflow.com/questions/73413321/unshort-amazon-eu-link-using-python)) it falls back to good old but heavy *HTTP GET*.
+Only in cases where the server misbehaves ([😮‍💨Amazon😮‍💨](https://stackoverflow.com/q/73413321/606351)) it falls back to good old but heavy *HTTP GET*.
 
 Also there are no dependencies.
 
