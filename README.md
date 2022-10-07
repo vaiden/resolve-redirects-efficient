@@ -19,7 +19,6 @@ import resolveRedirect from 'resolve-redirect-efficient'
 
 resolveRedirect('http://bit.ly/1TCI5N0')
   .then(url => console.log(url))
-// 
 ```
 
 ## Credits
