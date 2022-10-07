@@ -1,0 +1,32 @@
+{
+  "name": "resolve-redirects-efficient",
+  "version": "0.0.4",
+  "description": "A JS module for efficiently resolving HTTP/HTTPS redirects",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaiden/resolve-redirects-efficient.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "redirect",
+    "redirects",
+    "js",
+    "nodejs",
+    "link",
+    "links"
+  ],
+  "author": "Nitzan Weidenfeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaiden/resolve-redirects-efficient/issues"
+  },
+  "homepage": "https://github.com/vaiden/resolve-redirects-efficient#readme",
+  "devDependencies": {
+    "ava": "^4.3.3"
+  }
+}
