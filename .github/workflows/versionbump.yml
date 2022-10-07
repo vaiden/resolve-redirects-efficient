@@ -1,4 +1,5 @@
-## This action bumps the version number upon a push to master
+# This action bumps the version number upon a push to master
+
 name: "Bump Version"
 
 on:
