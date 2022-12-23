@@ -1,6 +1,6 @@
 {
   "name": "resolve-redirects-efficient",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A JS module for efficiently resolving HTTP/HTTPS redirects",
   "main": "index.js",
   "scripts": {
