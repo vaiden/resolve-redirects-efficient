@@ -29,9 +29,10 @@ test('secure url without redirect', t => {
 });
 
 test('broken url - HTTP 404', async t => {
-  await t.throwsAsync(() =>
-      resolveRedirect('http://feedproxy.google.com/~r/Coroflot/AllJobs/~3/69s2F4RGu-k/Designer'),
-      {instanceOf: Error, message: 'http://feedproxy.google.com/~r/Coroflot/AllJobs/~3/69s2F4RGu-k/Designer returned HTTP 404'});
+  const err = await t.throwsAsync(() => resolveRedirect('http://feedproxy.google.com/~r/Coroflot/AllJobs/~3/69s2F4RGu-k/Designer'));
+  t.is(err.message, 'http://feedproxy.google.com/~r/Coroflot/AllJobs/~3/69s2F4RGu-k/Designer returned HTTP 404');
+  t.is(err.statusCode, 404);
+  t.is(err.currentUrl, 'http://feedproxy.google.com/~r/Coroflot/AllJobs/~3/69s2F4RGu-k/Designer');
 });
 
 test('broken url - malformed URL', async t => {
